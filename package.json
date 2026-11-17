@@ -1,0 +1,9 @@
+{
+  "name": "github-security-learning-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo-only repository for GitHub security learning",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
