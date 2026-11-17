@@ -3,7 +3,9 @@ const app = express();
 
 app.get("/greeting", (req, res) => {
   const name = req.query.name || "visitor";
-  res.send("<h1>Hello, " + name + "</h1>");
+  res.type("text/plain");
+  res.send("Hello, " + name);
 });
 
 module.exports = app;
+
